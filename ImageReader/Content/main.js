@@ -3,8 +3,8 @@
     var resultCard = document.getElementById('resultCard');
     resultCard.removeAttribute('hidden');
 
-    var inprogress = document.getElementById("inprogress");
-    inprogress.removeAttribute('hidden');
+    var inprog = document.getElementById("inprogress");
+    inprog.removeAttribute('hidden');
 
     var responseContainer = document.getElementById('result');
 
@@ -15,6 +15,6 @@
     request.send();
 
     responseContainer.innerText = JSON.parse(request.responseText);
-    inprogress.setAttribute('hidden', 'hidden');
+    inprog.setAttribute('hidden', 'hidden');
 
 }

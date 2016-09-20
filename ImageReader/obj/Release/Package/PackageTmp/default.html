@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Reader - Online OCR </title>
+  
+    <link href="Content/inline.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Image Reader</h1>        
+    </header>
+
+    <main class="main">
+        <div class="card cardTemplate ">           
+            <div>
+                <h5> Image URL</h5>
+                <input type="text" id="imageURL" width="60%" value="http://4.bp.blogspot.com/-VeT74rtHYvo/T3jXg6UT7tI/AAAAAAAAArc/xH1tx4jtCA0/s400/Inspirational-quotes.jpg" />
+                <input type="button" value="Read" onclick="read()" class="btn btn-labeled btn-primary" />
+            </div>
+        </div>
+
+        <div id="inprogress" class="status" hidden> OCR Reading In Progress.... </div>
+
+        <div id="resultCard" class="card cardTemplate" hidden>
+            <div id="result" >
+            </div>
+        </div>
+    </main>
+
+    <script src="Content/main.js"></script>
+</body>
+</html>
