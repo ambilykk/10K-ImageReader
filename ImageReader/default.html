@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="offline.manifest">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,19 +18,19 @@
             <div>                
                 <h5><label for="imageURL"> Image URL</label></h5>
                 <input type="text" id="imageURL" class="url" value="http://4.bp.blogspot.com/-VeT74rtHYvo/T3jXg6UT7tI/AAAAAAAAArc/xH1tx4jtCA0/s400/Inspirational-quotes.jpg" />
-                <input type="button" value="Read" onclick="read()" class="btn btn-labeled btn-primary" />
+                <input id="read" type="button" value="Read" onclick="read()" class="btn btn-labeled btn-primary" />
             </div>
             <div>
                 <form enctype="multipart/form-data">
                     <h5><label for="uploader"> Upload Image or Capture Photo</label></h5>
                     <input type="file" class="url" name="uploader" id="uploader" accept="image/*" capture />
-                    <button type="button" class="btn btn-labeled btn-primary" id="Upload" onclick="readImage()"> Read</button>
+                    <button type="button" class="btn btn-labeled btn-primary" id="upload" onclick="readImage()"> Read</button>
                 </form>
             </div>           
         </div>
         
         <div id="resultCard" class="card cardTemplate"> 
-            <div id="status"></div>           
+            <p id="status"></p>           
             <div id="result" >
             </div>
         </div>
@@ -48,7 +48,7 @@
         </div>
   </footer>
 
-    <script src="Content/main.min.js"></script>    
+    <script src="Content/main.min.js"></script>
 
 </body>
 </html>

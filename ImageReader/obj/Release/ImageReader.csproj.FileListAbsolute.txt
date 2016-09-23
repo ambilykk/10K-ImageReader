@@ -27,3 +27,4 @@ D:\Ambily\projects\ImageReader\ImageReader\bin\System.Web.Http.WebHost.xml
 D:\Ambily\projects\ImageReader\ImageReader\obj\Release\ImageReader.csprojResolveAssemblyReference.cache
 D:\Ambily\projects\ImageReader\ImageReader\obj\Release\ImageReader.dll
 D:\Ambily\projects\ImageReader\ImageReader\obj\Release\ImageReader.pdb
+D:\Ambily\projects\ImageReader\ImageReader\bin\offline.manifest

@@ -93,11 +93,17 @@
     <Content Include="Content\main.min.js">
       <DependentUpon>main.js</DependentUpon>
     </Content>
+    <Content Include="fallback.html" />
     <Content Include="packages.config" />
     <None Include="bundleconfig.json" />
+    <Content Include="offline.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\Azuredeploy.pubxml" />
     <None Include="Properties\PublishProfiles\filesystem.pubxml" />
+    <None Include="Properties\PublishProfiles\ImageReader - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\ImageReader - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ImageReader - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\ImageReader - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -111,7 +117,9 @@
     <Content Include="Content\main.js" />
     <Content Include="Global.asax" />
     <Content Include="default.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />

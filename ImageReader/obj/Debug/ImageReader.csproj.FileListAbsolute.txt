@@ -10,6 +10,7 @@ D:\Ambily\projects\ImageReader\ImageReader\bin\roslyn\System.Reflection.Metadata
 D:\Ambily\projects\ImageReader\ImageReader\bin\roslyn\vbc.exe
 D:\Ambily\projects\ImageReader\ImageReader\bin\roslyn\VBCSCompiler.exe
 D:\Ambily\projects\ImageReader\ImageReader\bin\roslyn\VBCSCompiler.exe.config
+D:\Ambily\projects\ImageReader\ImageReader\bin\offline.manifest
 D:\Ambily\projects\ImageReader\ImageReader\bin\ImageReader.dll.config
 D:\Ambily\projects\ImageReader\ImageReader\bin\ImageReader.dll
 D:\Ambily\projects\ImageReader\ImageReader\bin\ImageReader.pdb

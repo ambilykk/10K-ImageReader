@@ -1,0 +1,14 @@
+CACHE MANIFEST   	
+# Version 1.0.1
+
+CACHE: 
+default.html
+
+/Content/inline.min.css
+/Content/main.min.js
+
+NETWORK: 		
+*			
+
+FALLBACK: 		
+fallback.html
