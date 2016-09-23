@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/ImageReader.dll">
-      <publishTime>09/20/2016 12:32:31</publishTime>
+      <publishTime>09/23/2016 11:08:08</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>06/15/2015 02:06:24</publishTime>
@@ -67,13 +67,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:03:46</publishTime>
     </File>
     <File Include="Content/inline.css">
-      <publishTime>09/17/2016 23:01:55</publishTime>
+      <publishTime>09/23/2016 11:01:18</publishTime>
+    </File>
+    <File Include="Content/inline.min.css">
+      <publishTime>09/23/2016 11:01:18</publishTime>
     </File>
     <File Include="Content/main.js">
-      <publishTime>09/17/2016 23:30:04</publishTime>
+      <publishTime>09/23/2016 10:10:21</publishTime>
+    </File>
+    <File Include="Content/main.min.js">
+      <publishTime>09/23/2016 10:10:21</publishTime>
     </File>
     <File Include="default.html">
-      <publishTime>09/17/2016 23:05:05</publishTime>
+      <publishTime>09/23/2016 10:57:20</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>09/13/2016 12:16:08</publishTime>
@@ -82,7 +88,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/13/2016 12:20:07</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/20/2016 12:32:32</publishTime>
+      <publishTime>09/23/2016 11:08:08</publishTime>
     </File>
   </ItemGroup>
 </Project>
