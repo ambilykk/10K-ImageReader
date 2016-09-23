@@ -87,8 +87,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\inline.min.css">
+      <DependentUpon>inline.css</DependentUpon>
+    </Content>
+    <Content Include="Content\main.min.js">
+      <DependentUpon>main.js</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
+    <None Include="bundleconfig.json" />
+    <None Include="Properties\PublishProfiles\Azuredeploy.pubxml" />
     <None Include="Properties\PublishProfiles\filesystem.pubxml" />
+    <None Include="Properties\PublishProfiles\ImageReader - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ImageReader - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

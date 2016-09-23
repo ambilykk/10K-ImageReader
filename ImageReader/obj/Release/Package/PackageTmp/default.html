@@ -1,12 +1,11 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Reader - Online OCR </title>
-  
-    <link href="Content/inline.css" rel="stylesheet" />
+  <link href="Content/inline.min.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -16,21 +15,40 @@
 
     <main class="main">
         <div class="card cardTemplate ">           
-            <div>
-                <h5> Image URL</h5>
-                <input type="text" id="imageURL" width="60%" value="http://4.bp.blogspot.com/-VeT74rtHYvo/T3jXg6UT7tI/AAAAAAAAArc/xH1tx4jtCA0/s400/Inspirational-quotes.jpg" />
+            <div>                
+                <h5><label for="imageURL"> Image URL</label></h5>
+                <input type="text" id="imageURL" class="url" value="http://4.bp.blogspot.com/-VeT74rtHYvo/T3jXg6UT7tI/AAAAAAAAArc/xH1tx4jtCA0/s400/Inspirational-quotes.jpg" />
                 <input type="button" value="Read" onclick="read()" class="btn btn-labeled btn-primary" />
             </div>
+            <div>
+                <form enctype="multipart/form-data">
+                    <h5><label for="uploader"> Upload Image or Capture Photo</label></h5>
+                    <input type="file" class="url" name="uploader" id="uploader" accept="image/*" capture />
+                    <button type="button" class="btn btn-labeled btn-primary" id="Upload" onclick="readImage()"> Read</button>
+                </form>
+            </div>           
         </div>
-
-        <div id="inprogress" class="status" hidden> OCR Reading In Progress.... </div>
-
-        <div id="resultCard" class="card cardTemplate" hidden>
+        
+        <div id="resultCard" class="card cardTemplate"> 
+            <div id="status"></div>           
             <div id="result" >
             </div>
         </div>
     </main>
 
-    <script src="Content/main.js"></script>
+    <footer>
+        <div id="footer" class="card cardTemplate">
+
+            <div class="hover">
+                About
+                <div class="tooltip">
+                    Image Reader is a free web-based Optical Character Recognition software (OCR) that allows you to extract text from online images and uploaded image files and mobile camera captured images. Capture the image of an address in a board, sales offering in a bill board, pass the url of your favorite motivational quote, upload scanned business card and extract the information in one click.
+                </div>
+            </div>
+        </div>
+  </footer>
+
+    <script src="Content/main.min.js"></script>    
+
 </body>
 </html>

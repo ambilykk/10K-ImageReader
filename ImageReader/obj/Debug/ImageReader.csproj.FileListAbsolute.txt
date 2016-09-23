@@ -24,6 +24,5 @@ D:\Ambily\projects\ImageReader\ImageReader\bin\Newtonsoft.Json.xml
 D:\Ambily\projects\ImageReader\ImageReader\bin\System.Net.Http.Formatting.xml
 D:\Ambily\projects\ImageReader\ImageReader\bin\System.Web.Http.xml
 D:\Ambily\projects\ImageReader\ImageReader\bin\System.Web.Http.WebHost.xml
-D:\Ambily\projects\ImageReader\ImageReader\obj\Debug\ImageReader.csprojResolveAssemblyReference.cache
 D:\Ambily\projects\ImageReader\ImageReader\obj\Debug\ImageReader.dll
 D:\Ambily\projects\ImageReader\ImageReader\obj\Debug\ImageReader.pdb
